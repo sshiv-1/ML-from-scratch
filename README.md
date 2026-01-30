@@ -1,8 +1,8 @@
 # Machine Learning Algorithms from Scratch
 
-This repository contains implementations of core machine learning algorithms **from scratch**, created to revise mathematical foundations and strengthen conceptual understanding of how these algorithms work internally.
+This repository contains implementations of core machine learning algorithms **from scratch**, developed as part of **coursework** and **self-study** to revise mathematical foundations and strengthen conceptual understanding.
 
-The project is **learning-focused**, prioritizing clarity and correctness over performance or production-level optimization.
+The project focuses on understanding **how algorithms work internally**, rather than using high-level machine learning libraries.
 
 ---
 
@@ -14,31 +14,36 @@ The project is **learning-focused**, prioritizing clarity and correctness over p
 - Decision Tree
 - Random Forest
 
-All algorithms are implemented using basic Python and NumPy, without using high-level machine learning libraries such as `scikit-learn`.
+All algorithms are implemented using basic Python and NumPy, without relying on libraries such as `scikit-learn`.
+also **Decision boundary visualizations** for better geometric understanding
+
+---
+
+## Motivation
+
+This project was created to support coursework and to **revise the mathematics and core concepts** behind machine learning algorithms.
+
+While working through the subject, whenever gaps in understanding appeared—especially in mathematical derivations and algorithmic logic—additional learning resources were consulted before implementing the algorithms independently.
+
+The main goals were to:
+- strengthen understanding of underlying mathematics
+- connect theory with implementation
+- build confidence in explaining algorithms from first principles
 
 ---
 
 ## Project Structure
 
-The project consists of **five files**, including algorithm implementations on test datasets:
-
-├── shiv-lr.py
-
-├── shiv-log-reg.py
-
-├── shiv-knn.py
-
+```text
+├── linear_regression.py
+├── logistic_regression.py
+├── knn.py
+├── decision_tree.py
 ├── random_forest.py
+├── requirements.txt
+└── README.md
+```
 
-├── DecisionTree.py
 
 
-- Each model file contains the implementation of the algorithm from scratch
----
 
-## How to Run
-
-1. Clone the repository:
-```bash
-git clone <repo-url>
-cd <repo-name>
