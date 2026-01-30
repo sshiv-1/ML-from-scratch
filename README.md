@@ -23,9 +23,13 @@ All algorithms are implemented using basic Python and NumPy, without using high-
 The project consists of **five files**, including algorithm implementations and a test dataset:
 
 ├── shiv-lr.py
+
 ├── shiv-log-reg.py
+
 ├── shiv-knn.py
+
 ├── random_forest.py
+
 ├── DecisionTree.py
 
 
