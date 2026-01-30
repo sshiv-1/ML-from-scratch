@@ -20,7 +20,7 @@ All algorithms are implemented using basic Python and NumPy, without using high-
 
 ## Project Structure
 
-The project consists of **five files**, including algorithm implementations and a test dataset:
+The project consists of **five files**, including algorithm implementations on test datasets:
 
 ├── shiv-lr.py
 
