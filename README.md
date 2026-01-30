@@ -35,10 +35,10 @@ The main goals were to:
 ## Project Structure
 
 ```text
-├── linear_regression.py
-├── logistic_regression.py
-├── knn.py
-├── decision_tree.py
+├── shiv-lr.py
+├── shiv-log-reg.py
+├── shiv-knn.py
+├── DecisionTree.py
 ├── random_forest.py
 ├── requirements.txt
 └── README.md
